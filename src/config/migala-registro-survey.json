@@ -13,14 +13,16 @@
         "name": "apellidos",
         "title": "Apellidos",
         "hideNumber": true,
-        "isRequired": true
+        "isRequired": true,
+        "autoComplete": "nam"
        },
        {
         "type": "text",
         "name": "nombres",
         "title": "Nombres",
         "hideNumber": true,
-        "isRequired": true
+        "isRequired": true,
+        "autoComplete": "name"
        }
       ],
       "title": "¿Cómo te llamas?"
@@ -33,15 +35,15 @@
       "isRequired": true,
       "choices": [
        {
-        "value": "item1",
+        "value": "masculino",
         "text": "Masculino"
        },
        {
-        "value": "item2",
+        "value": "femenino",
         "text": "Femenino"
        },
        {
-        "value": "item3",
+        "value": "no_binario",
         "text": "No binario"
        }
       ]
@@ -53,11 +55,11 @@
       "hideNumber": true,
       "isRequired": true,
       "inputType": "date",
-      "autoComplete": "bday"
+      "autoComplete": "bday",
+      "max": "currentDate()"
      }
     ],
-    "title": "Queremos saber sobre ti",
-    "description": "Datos personales"
+    "title": "Datos personales"
    },
    {
     "name": "datos-personales_2",
@@ -67,6 +69,7 @@
       "name": "estado",
       "title": "Selecciona tu estado",
       "hideNumber": true,
+      "isRequired": true,
       "choices": [
        {
         "value": "sinaloa",
@@ -80,6 +83,7 @@
       "title": "Selecciona tu municipio o alcaldía",
       "hideNumber": true,
       "enableIf": "{estado} notempty",
+      "isRequired": true,
       "choices": [
        {
         "value": "item3",
@@ -91,11 +95,11 @@
       "type": "text",
       "name": "codigo_postal",
       "title": "Código postal",
-      "hideNumber": true
+      "hideNumber": true,
+      "isRequired": true
      }
     ],
-    "title": "Queremos saber sobre ti",
-    "description": "Datos personales"
+    "title": "Datos personales"
    },
    {
     "name": "datos-personales_3",
@@ -120,14 +124,14 @@
         "title": "Teléfono calular a diez dígitos",
         "hideNumber": true,
         "isRequired": true,
-        "inputType": "number"
+        "inputType": "tel",
+        "autoComplete": "tel"
        }
       ],
       "title": "¿Cuando llegue el momento cómo podemos contactactarte?"
      }
     ],
-    "title": "Queremos saber sobre ti",
-    "description": "Datos personales"
+    "title": "Datos personales"
    },
    {
     "name": "datos-personales_4",
@@ -149,8 +153,107 @@
       "title": "Distrito electoral"
      }
     ],
-    "title": "Queremos saber sobre ti",
+    "title": "Datos personales",
     "description": "Datos personales"
+   },
+   {
+    "name": "actividad_1",
+    "elements": [
+     {
+      "type": "dropdown",
+      "name": "ultimo_grado_estudios",
+      "title": "¿Cuál ha sido tu último grado de estudios?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "item1",
+        "text": "Secundaria"
+       },
+       {
+        "value": "item2",
+        "text": "Preparatoria"
+       },
+       {
+        "value": "item3",
+        "text": "Universidad"
+       },
+       {
+        "value": "item4",
+        "text": "Posgrado"
+       }
+      ]
+     },
+     {
+      "type": "radiogroup",
+      "name": "trabajas_en_lo_que_estudiaste",
+      "title": "¿Trabajas en lo que estudiaste?",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "si",
+        "text": "Sí"
+       },
+       {
+        "value": "no",
+        "text": "No"
+       }
+      ]
+     }
+    ],
+    "title": "Actividad"
+   },
+   {
+    "name": "actividad_2",
+    "elements": [
+     {
+      "type": "checkbox",
+      "name": "question1",
+      "title": "¿Actualmente cuál es tu ocupación?",
+      "description": "Puedes seleccionar hasta tres casillas",
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "emplead_sector_privado",
+        "text": "Emplead@ en el sector privado"
+       },
+       {
+        "value": "emplead_sector_publico",
+        "text": "Emplead@ en el sector público"
+       },
+       {
+        "value": "estudiante",
+        "text": "Estudiante"
+       },
+       {
+        "value": "desemplad_pensionad",
+        "text": "Desemplead@/Pensionado"
+       },
+       {
+        "value": "emplead_informal",
+        "text": "Emplead@ informal"
+       },
+       {
+        "value": "trabajo_domestico_cuidado",
+        "text": "Trabajo doméstico y/o de cuidado"
+       },
+       {
+        "value": "negocio_propio_familiar",
+        "text": "Negocio propio y/o familiar"
+       },
+       {
+        "value": "freelancer",
+        "text": "Freelancer"
+       },
+       {
+        "value": "docencia",
+        "text": "Docencia"
+       }
+      ],
+      "otherText": "Desemplead@/Pensionado",
+      "maxSelectedChoices": 3
+     }
+    ],
+    "title": "Actividad"
    }
   ],
   "showPageTitles": false
