@@ -1,0 +1,157 @@
+{
+  "title": "Registro de participación",
+  "pages": [
+   {
+    "name": "datos-personales_1",
+    "elements": [
+     {
+      "type": "panel",
+      "name": "panel_nombre",
+      "elements": [
+       {
+        "type": "text",
+        "name": "apellidos",
+        "title": "Apellidos",
+        "hideNumber": true,
+        "isRequired": true
+       },
+       {
+        "type": "text",
+        "name": "nombres",
+        "title": "Nombres",
+        "hideNumber": true,
+        "isRequired": true
+       }
+      ],
+      "title": "¿Cómo te llamas?"
+     },
+     {
+      "type": "radiogroup",
+      "name": "genero",
+      "title": "¿Cuál es tu género?",
+      "hideNumber": true,
+      "isRequired": true,
+      "choices": [
+       {
+        "value": "item1",
+        "text": "Masculino"
+       },
+       {
+        "value": "item2",
+        "text": "Femenino"
+       },
+       {
+        "value": "item3",
+        "text": "No binario"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "name": "fecha_nacimiento",
+      "title": "¿Cuándo naciste?",
+      "hideNumber": true,
+      "isRequired": true,
+      "inputType": "date",
+      "autoComplete": "bday"
+     }
+    ],
+    "title": "Queremos saber sobre ti",
+    "description": "Datos personales"
+   },
+   {
+    "name": "datos-personales_2",
+    "elements": [
+     {
+      "type": "dropdown",
+      "name": "estado",
+      "title": "Selecciona tu estado",
+      "hideNumber": true,
+      "choices": [
+       {
+        "value": "sinaloa",
+        "text": "Sinaloa"
+       }
+      ]
+     },
+     {
+      "type": "dropdown",
+      "name": "municipio_o_alcaldia",
+      "title": "Selecciona tu municipio o alcaldía",
+      "hideNumber": true,
+      "enableIf": "{estado} notempty",
+      "choices": [
+       {
+        "value": "item3",
+        "text": "Ahome"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "name": "codigo_postal",
+      "title": "Código postal",
+      "hideNumber": true
+     }
+    ],
+    "title": "Queremos saber sobre ti",
+    "description": "Datos personales"
+   },
+   {
+    "name": "datos-personales_3",
+    "elements": [
+     {
+      "type": "panel",
+      "name": "panel_datos_contacto",
+      "elements": [
+       {
+        "type": "text",
+        "name": "email",
+        "title": "Email",
+        "hideNumber": true,
+        "isRequired": true,
+        "inputType": "email",
+        "autoComplete": "email",
+        "placeHolder": "email@ejemplo.com"
+       },
+       {
+        "type": "text",
+        "name": "telefono",
+        "title": "Teléfono calular a diez dígitos",
+        "hideNumber": true,
+        "isRequired": true,
+        "inputType": "number"
+       }
+      ],
+      "title": "¿Cuando llegue el momento cómo podemos contactactarte?"
+     }
+    ],
+    "title": "Queremos saber sobre ti",
+    "description": "Datos personales"
+   },
+   {
+    "name": "datos-personales_4",
+    "elements": [
+     {
+      "type": "panel",
+      "name": "panel3",
+      "title": "Ahora sí, saca tu credencial de elector ",
+      "description": "Recuerda que este campo es opcional, si decides ponerlo nos ayudas a saber dónde tenemos presencia y validar tu información.\nSi aún no cumples 18 años no te preocupes, déjalo vacío."
+     },
+     {
+      "type": "text",
+      "name": "clave_elector",
+      "title": "Clave de elector"
+     },
+     {
+      "type": "text",
+      "name": "distrito_electoral",
+      "title": "Distrito electoral"
+     }
+    ],
+    "title": "Queremos saber sobre ti",
+    "description": "Datos personales"
+   }
+  ],
+  "showPageTitles": false
+ }
