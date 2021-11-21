@@ -13,6 +13,8 @@ RUN yarn run build
 
 FROM nginx:stable-alpine
 
+ENV PORT=5000
+
 COPY ./.nginx/templates/* /etc/nginx/templates/
 
 COPY --from=builder /home/node/app/build /usr/share/nginx/html
