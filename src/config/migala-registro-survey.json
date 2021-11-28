@@ -323,7 +323,7 @@
       {
        "type": "image",
        "name": "imagen_clave_elector",
-       "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg"
+       "imageLink": "/images/ine_clave_elector.png"
       },
       {
        "type": "text",
@@ -344,7 +344,7 @@
       {
        "type": "image",
        "name": "question4",
-       "imageLink": "https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg"
+       "imageLink": "/images/ine_seccion.png"
       },
       {
        "type": "text",
