@@ -4,7 +4,7 @@ import { handleOnCompleted } from 'service';
 
 const MigalaRegistroModel: Survey.ReactSurveyModel = new Survey.Model(migalaSurvey);
 
-var defaultThemeColors = Survey
+let defaultThemeColors = Survey
     .StylesManager
     .ThemeColors["modern"];
 defaultThemeColors["$main-color"] = "#5e1780";
