@@ -246,14 +246,23 @@
    "elements": [
     {
      "type": "text",
-     "name": "crup",
+     "name": "curp",
      "title": {
       "es": "Ingresa tu Clave Unica de Registro Poblacional (CURP)"
      },
      "description": {
       "es": "¿No conoces ese dato? Consúltalo aquí: <https://www.gob.mx/curp/>"
      },
-     "isRequired": true
+     "isRequired": true,
+     "validators": [
+      {
+       "type": "regex",
+       "text": {
+        "es": "Formato de CURP"
+       },
+       "regex": "^([A-Z][AEIOUX][A-Z]{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\\d])(\\d)$"
+      }
+     ]
     },
     {
      "type": "dropdown",
@@ -299,7 +308,7 @@
     },
     {
      "type": "text",
-     "name": "question2",
+     "name": "municipio_alcaldia",
      "title": {
       "es": "¿En qué municipio o alcaldía vives? "
      },
@@ -309,6 +318,7 @@
      "isRequired": true
     }
    ],
+   "visibleIf": "{nacionalidad} <> 'extranjera'",
    "title": {
     "es": "Datos personales específicos"
    }
@@ -360,6 +370,7 @@
      ]
     }
    ],
+   "visibleIf": "{nacionalidad} <> 'extranjera'",
    "title": {
     "es": "Datos personales específicos"
    }
@@ -369,7 +380,7 @@
    "elements": [
     {
      "type": "html",
-     "name": "question3",
+     "name": "portada_formacion_ocupacion",
      "html": {
       "es": "<h1>Formación y ocupación</h1>\n<p>En esta sección se piden datos de tu formación académica y ocupación actual</p>"
      }
@@ -572,7 +583,7 @@
       },
       {
        "type": "text",
-       "name": "question5",
+       "name": "cuentanos_actividades_politicas_sociales",
        "title": {
         "es": "Cuéntanos en qué tipo de actividades políticas y/o sociales has participado, por cuánto tiempo y haciendo qué."
        },
@@ -605,7 +616,7 @@
    "elements": [
     {
      "type": "html",
-     "name": "question6",
+     "name": "portada_seccion_participacion",
      "html": {
       "es": "<h1>Participación e intenciones en el proyecto</h1>\n<p>Disponibilidad, actividades de interés, etc</p>"
      }
