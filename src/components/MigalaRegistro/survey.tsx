@@ -1,6 +1,12 @@
 import migalaSurvey from 'config/migala-registro-survey.json'
 import * as Survey from "survey-react";
 import { handleOnCompleted } from 'service';
+import { birthDateValidator } from './validators';
+
+Survey
+  .FunctionFactory
+  .Instance
+  .register("birthDateValidator", birthDateValidator);
 
 const MigalaRegistroModel: Survey.ReactSurveyModel = new Survey.Model(migalaSurvey);
 
