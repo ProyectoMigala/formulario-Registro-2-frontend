@@ -258,7 +258,7 @@
             "es": "Ingresa tu Clave Unica de Registro Poblacional (CURP)"
           },
           "description": {
-            "es": "¿No conoces ese dato? Consúltalo aquí: [https://www.gob.mx/curp](https://www.gob.mx/curp/)"
+            "es": "¿No conoces ese dato? Consúltalo aquí: <a href=\"https://www.gob.mx/curp\" target=\"_blank\">https://www.gob.mx/curp</a>"
           },
           "isRequired": true,
           "validators": [
@@ -379,7 +379,7 @@
                 "es": "Sección Electoral"
               },
               "description": {
-                "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen.\n\n\nEsta pregunta es obligatoria porque es muy importante responderla bien.\n\nSi no cuentas con credencial, solicita permiso para buscar en la credencial de alguien que viva en tu misma manzana; o puedes buscar tu domicilio en este mapa: https://cartografia.ife.org.mx/sige7/?cartografia=mapas\n\nSi vives en el extranjero, solo escribe 9999"
+                "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen.\n\n\nEsta pregunta es obligatoria porque es muy importante responderla bien.\n\nSi no cuentas con credencial, solicita permiso para buscar en la credencial de alguien que viva en tu misma manzana; o puedes buscar tu domicilio en este mapa: <a href=\"https://cartografia.ife.org.mx/sige7/?cartografia=mapas\" target=\"_blank\">https://cartografia.ife.org.mx/sige7/?cartografia=mapas</a>\n\nSi vives en el extranjero, solo escribe 9999"
               },
               "isRequired": true,
               "validators": [
