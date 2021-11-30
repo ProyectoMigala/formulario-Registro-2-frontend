@@ -1,12 +1,23 @@
 import migalaSurvey from 'config/migala-registro-survey.json'
 import * as Survey from "survey-react";
 import { handleOnCompleted } from 'service';
-import { birthDateValidator } from './validators';
+import {birthDateValidator, curpValidator} from './validators';
 
-Survey
-  .FunctionFactory
-  .Instance
-  .register("birthDateValidator", birthDateValidator);
+const registerValidators = (...validators: {name: string, function: any}[]) => {
+
+  validators.forEach( f => {
+    Survey
+        .FunctionFactory
+        .Instance
+        .register(f.name, f.function);
+  })
+}
+
+registerValidators(
+    {name: 'birthDateValidator', function: birthDateValidator},
+    {name: 'curpValidator', function: curpValidator}
+)
+
 
 const MigalaRegistroModel: Survey.ReactSurveyModel = new Survey.Model(migalaSurvey);
 
