@@ -258,7 +258,7 @@
             "es": "Ingresa tu Clave Unica de Registro Poblacional (CURP)"
           },
           "description": {
-            "es": "¿No conoces ese dato? Consúltalo aquí: <https://www.gob.mx/curp/>"
+            "es": "¿No conoces ese dato? Consúltalo aquí: [https://www.gob.mx/curp](https://www.gob.mx/curp/)"
           },
           "isRequired": true,
           "validators": [
