@@ -1,919 +1,944 @@
 {
- "locale": "es",
- "title": "Registro de participación",
- "pages": [
-  {
-   "name": "portada",
-   "elements": [
+  "locale": "es",
+  "title": "Registro de participación",
+  "pages": [
     {
-     "type": "html",
-     "name": "question1",
-     "html": {
-      "default": "Este registro no es una afiliación, es una forma de organización digital.\n</br>\n</br>\nEl tiempo estimado para contestarlo es de 15 minutos (ten a la mano tu CURP y credencial para votar para hacerlo más rápido).\n</br>\n</br>\nRecuerda que estamos construyendo un proyecto político, por ende debemos darle seriedad. Tómate tu tiempo, hazlo con calma, utiliza mayúsculas, minúsculas y tildes según corresponda.\n</br>\n</br>\nAl comenzar manifiestas que toda la información que proporciones es cierta.\n</br>\nA continuación, el aviso de privacidad.",
-      "es": "<h1>Hola, bienvenidx al Registro de participación\nde Proyecto Migala</h1>\n<p>\nEste registro no es una afiliación, es una forma de organización digital.\n</br>\n</br>\nEl tiempo estimado para contestarlo es de 15 minutos (ten a la mano tu CURP y credencial para votar para hacerlo más rápido).\n</br>\n</br>\nRecuerda que estamos construyendo un proyecto político, por ende debemos darle seriedad. Tómate tu tiempo, hazlo con calma, utiliza mayúsculas, minúsculas y tildes según corresponda.\n</br>\n</br>\nAl comenzar manifiestas que toda la información que proporciones es cierta.\n</br>\nA continuación, el aviso de privacidad.\n</p>"
-     }
-    }
-   ],
-   "readOnly": true
-  },
-  {
-   "name": "aviso-de-privacidad",
-   "elements": [
-    {
-     "type": "html",
-     "name": "aviso_privacidad",
-     "html": "<h1>Aviso de privacidad.</h1>\n<p><span>David Enríquez Casas, con domicilio en calle Plaza Carlos Pacheco número 5, colonia Centro, Ciudad de México, demarcación Cuauhtémoc, código postal 06000, en la Ciudad de México, y portal de internet </span><a href=\"https://www.facebook.com/proyectomigala\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.facebook.com/proyectomigala</a><span>; es el responsable del uso y protección de tus datos personales para el padrón del Proyecto Migala, y al respecto te debemos informar lo siguiente:</span><br><span> </span><br><strong>¿Para qué fines utilizaremos tus datos personales?</strong><br><span> </span><br><span>Los datos personales que recabamos de ti, los utilizaremos para las siguientes finalidades que son necesarias para el funcionamiento del proyecto:</span><br><span>•\tOrientación política</span><br><span>•\tCapacitación</span><br><span>•\tParticipación en grupos de trabajo</span><br><span>•\tPostulación a responsabilidades</span><br><span>•\tTrabajo operativo</span><br><span>•\tLínea política</span><br><span>•\tRepresentación</span><br><span>•\tResponsabilidades como enlace</span><br><span>•\tResponsabilidades de dirección </span><br><span>•\tVotaciones internas</span><br><span>•\tInscripción a procesos de selección de candidaturas</span><br><span>•\tPrecandidaturas</span><br><span>•\tCandidaturas</span><br><span>•\tOcupación de cargos públicos</span><br><br><strong>¿Qué datos personales utilizaremos para estos fines?</strong><br><span> </span><br><span>Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos tus siguientes datos personales:</span><br><span>•\tNombre</span><br><span>•\tClave única de Registro de Población (CURP)</span><br><span>•\tClave de elector</span><br><span>•\tSección Electoral</span><br><span>•\tGénero</span><br><span>•\tLugar de nacimiento</span><br><span>•\tFecha de nacimiento</span><br><span>•\tNacionalidad</span><br><span>•\tTeléfono celular</span><br><span>•\tCorreo electrónico</span><br><span>•\tPuesto o cargo que desempeñas en tu actividad laboral </span><br><span>•\tTrayectoria educativa</span><br><span>•\tTrayectoria política</span><br><span>•\tPasatiempos</span><br><span>•\tAficiones</span><br><span>•\tDeportes que practicas</span><br><span>•\tDatos de contacto</span><br><br><span>Los datos recopilados se alojan en el servicio de Amazon AWS.</span><br><br><strong>¿Cómo puedes acceder, rectificar o cancelar tus datos personales, u oponerte a su uso?</strong><br><span> </span><br><span>Tienes derecho a conocer qué datos personales tenemos de ti, para qué los utilizamos y las condiciones del uso que les damos (acceso). Asimismo, es tu derecho solicitar la corrección de tu información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando consideres que la misma no está siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de tus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.</span><br><span> </span><br><span>Para el ejercicio de cualquiera de los derechos ARCO, deberás presentar la solicitud respectiva a través de David Enríquez Casas, con domicilio para recibir notificaciones en Calle Plaza Carlos Pacheco número 5, colonia Centro, Demarcación Cuauhtémoc, código postal 06000, Ciudad de México, correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><span>Para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, ponemos a tu disposición el correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><br><span>Los datos de contacto de la persona responsables del manejo y almacenamiento de datos personales, que está a cargo de dar trámite a las solicitudes de derechos ARCO, son los siguientes:</span><br><span> </span><br><span>a) Nombre de la persona responsable del padrón: David Enríquez Casas</span><br><span>b) Domicilio: calle Plaza Carlos Pacheco número 5, colonia Centro, Ciudad de México, demarcación Cuauhtémoc, código postal 06000, en la Ciudad de México.</span><br><span>c) Correo electrónico: </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><br><br><br><strong>Tú puedes revocar el consentimiento para el uso de tus datos personales</strong><br><br><span>Puedes revocar el consentimiento que, en tu caso, nos hayas otorgado para el tratamiento de tus datos personales. Sin embargo, es importante que tengas en cuenta que no en todos los casos podremos atender tu solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando tus datos personales. Asimismo, deberás considerar que, para ciertos fines, la revocación de tu consentimiento implicará que no podrás seguir participando en las actividades del Proyecto Migala y por ende la conclusión de tu relación con nosotros.</span><br><br><span>Para revocar tu consentimiento deberás presentar una solicitud; así como para conocer el procedimiento y requisitos para la revocación del consentimiento, ponemos a tu disposición el correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><span> </span><br><strong>¿Cómo puedes limitar el uso o divulgación de tu información personal?</strong><br><span> </span><br><span>Con objeto de que puedas limitar el uso y divulgación de tu información personal, te solicitamos también escribir a nuestro correo electrónico, </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><span> </span><br><strong>El uso de tecnologías de rastreo en nuestro registro</strong><br><br><span>Te informamos que en nuestro registro utilizamos cookies, web beacons u otras tecnologías, a través de las cuales es posible monitorear tu comportamiento como usuario de internet, así como brindar un mejor servicio y experiencia al responder el formulario. Los datos personales que se recaban a través de estas tecnologías, los utilizaremos para armonizar la Construcción y organización del Proyecto Migala.</span><br><br><span>Los datos personales que obtenemos de estas tecnologías de rastreo son los siguientes:</span><br><br><span>•\tIdioma preferido por el usuario</span><br><span>•\tRegión en la que se encuentra el usuario</span><br><span>•\tTipo de navegador del usuario</span><br><span>•\tTipo de sistema operativo del usuario</span><br><br><span>Para conocer la forma en que se pueden deshabilitar estas tecnologías, ponerse en contacto al correo </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><br><strong>¿Cómo puedes conocer los cambios en este aviso de privacidad?</strong><br><span> </span><br><span>El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades de nuestra organización; de nuestras prácticas de privacidad; de cambios en nuestro modelo de trabajo, o por otras causas.</span><br><br><span>Nos comprometemos a informarte sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de comunicado por correo electrónico.</span><br><br><span>El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o actualizaciones a través de comunicado por correo electrónico, del cual se solicitará la confirmación. </span></p>"
+      "name": "portada",
+      "elements": [
+        {
+          "type": "html",
+          "name": "question1",
+          "html": {
+            "default": "Este registro no es una afiliación, es una forma de organización digital.\n</br>\n</br>\nEl tiempo estimado para contestarlo es de 15 minutos (ten a la mano tu CURP y credencial para votar para hacerlo más rápido).\n</br>\n</br>\nRecuerda que estamos construyendo un proyecto político, por ende debemos darle seriedad. Tómate tu tiempo, hazlo con calma, utiliza mayúsculas, minúsculas y tildes según corresponda.\n</br>\n</br>\nAl comenzar manifiestas que toda la información que proporciones es cierta.\n</br>\nA continuación, el aviso de privacidad.",
+            "es": "<h1>Hola, bienvenidx al Registro de participación\nde Proyecto Migala</h1>\n<p>\nEste registro no es una afiliación, es una forma de organización digital.\n</br>\n</br>\nEl tiempo estimado para contestarlo es de 15 minutos (ten a la mano tu CURP y credencial para votar para hacerlo más rápido).\n</br>\n</br>\nRecuerda que estamos construyendo un proyecto político, por ende debemos darle seriedad. Tómate tu tiempo, hazlo con calma, utiliza mayúsculas, minúsculas y tildes según corresponda.\n</br>\n</br>\nAl comenzar manifiestas que toda la información que proporciones es cierta.\n</br>\nA continuación, el aviso de privacidad.\n</p>"
+          }
+        }
+      ],
+      "readOnly": true
     },
     {
-     "type": "boolean",
-     "name": "acepto_aviso_privacidad",
-     "title": {
-      "es": "Acepto el aviso de privacidad"
-     },
-     "correctAnswer": true,
-     "isRequired": true,
-     "labelTrue": {
-      "es": "Sí"
-     },
-     "labelFalse": {
-      "es": "No"
-     }
-    }
-   ]
-  },
-  {
-   "name": "primeros-datos_0",
-   "elements": [
-    {
-     "type": "html",
-     "name": "primeros datos",
-     "html": {
-      "es": "<h1>Primeros datos</h1>\n<p>En esta sección vamos a analizar cómo puedes participar</p>"
-     }
-    }
-   ],
-   "readOnly": true,
-   "title": {
-    "es": "Primeros datos"
-   }
-  },
-  {
-   "name": "primeros-datos_1",
-   "elements": [
-    {
-     "type": "text",
-     "name": "como-nos-referimos-a-ti",
-     "title": {
-      "es": "¿Cómo te gustaría que nos refiramos a ti?"
-     },
-     "description": {
-      "es": "Apodo, alguno o algunos de tus nombres en específico, nickname, diminutivo, etc. El nombre con el que te gustaría que te reconozcan."
-     },
-     "isRequired": true
+      "name": "aviso-de-privacidad",
+      "elements": [
+        {
+          "type": "html",
+          "name": "aviso_privacidad",
+          "html": "<h1>Aviso de privacidad.</h1>\n<p><span>David Enríquez Casas, con domicilio en calle Plaza Carlos Pacheco número 5, colonia Centro, Ciudad de México, demarcación Cuauhtémoc, código postal 06000, en la Ciudad de México, y portal de internet </span><a href=\"https://www.facebook.com/proyectomigala\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.facebook.com/proyectomigala</a><span>; es el responsable del uso y protección de tus datos personales para el padrón del Proyecto Migala, y al respecto te debemos informar lo siguiente:</span><br><span> </span><br><strong>¿Para qué fines utilizaremos tus datos personales?</strong><br><span> </span><br><span>Los datos personales que recabamos de ti, los utilizaremos para las siguientes finalidades que son necesarias para el funcionamiento del proyecto:</span><br><span>•\tOrientación política</span><br><span>•\tCapacitación</span><br><span>•\tParticipación en grupos de trabajo</span><br><span>•\tPostulación a responsabilidades</span><br><span>•\tTrabajo operativo</span><br><span>•\tLínea política</span><br><span>•\tRepresentación</span><br><span>•\tResponsabilidades como enlace</span><br><span>•\tResponsabilidades de dirección </span><br><span>•\tVotaciones internas</span><br><span>•\tInscripción a procesos de selección de candidaturas</span><br><span>•\tPrecandidaturas</span><br><span>•\tCandidaturas</span><br><span>•\tOcupación de cargos públicos</span><br><br><strong>¿Qué datos personales utilizaremos para estos fines?</strong><br><span> </span><br><span>Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos tus siguientes datos personales:</span><br><span>•\tNombre</span><br><span>•\tClave única de Registro de Población (CURP)</span><br><span>•\tClave de elector</span><br><span>•\tSección Electoral</span><br><span>•\tGénero</span><br><span>•\tLugar de nacimiento</span><br><span>•\tFecha de nacimiento</span><br><span>•\tNacionalidad</span><br><span>•\tTeléfono celular</span><br><span>•\tCorreo electrónico</span><br><span>•\tPuesto o cargo que desempeñas en tu actividad laboral </span><br><span>•\tTrayectoria educativa</span><br><span>•\tTrayectoria política</span><br><span>•\tPasatiempos</span><br><span>•\tAficiones</span><br><span>•\tDeportes que practicas</span><br><span>•\tDatos de contacto</span><br><br><span>Los datos recopilados se alojan en el servicio de Amazon AWS.</span><br><br><strong>¿Cómo puedes acceder, rectificar o cancelar tus datos personales, u oponerte a su uso?</strong><br><span> </span><br><span>Tienes derecho a conocer qué datos personales tenemos de ti, para qué los utilizamos y las condiciones del uso que les damos (acceso). Asimismo, es tu derecho solicitar la corrección de tu información personal en caso de que esté desactualizada, sea inexacta o incompleta (Rectificación); que la eliminemos de nuestros registros o bases de datos cuando consideres que la misma no está siendo utilizada adecuadamente (Cancelación); así como oponerse al uso de tus datos personales para fines específicos (Oposición). Estos derechos se conocen como derechos ARCO.</span><br><span> </span><br><span>Para el ejercicio de cualquiera de los derechos ARCO, deberás presentar la solicitud respectiva a través de David Enríquez Casas, con domicilio para recibir notificaciones en Calle Plaza Carlos Pacheco número 5, colonia Centro, Demarcación Cuauhtémoc, código postal 06000, Ciudad de México, correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><span>Para conocer el procedimiento y requisitos para el ejercicio de los derechos ARCO, ponemos a tu disposición el correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><br><span>Los datos de contacto de la persona responsables del manejo y almacenamiento de datos personales, que está a cargo de dar trámite a las solicitudes de derechos ARCO, son los siguientes:</span><br><span> </span><br><span>a) Nombre de la persona responsable del padrón: David Enríquez Casas</span><br><span>b) Domicilio: calle Plaza Carlos Pacheco número 5, colonia Centro, Ciudad de México, demarcación Cuauhtémoc, código postal 06000, en la Ciudad de México.</span><br><span>c) Correo electrónico: </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><br><br><br><strong>Tú puedes revocar el consentimiento para el uso de tus datos personales</strong><br><br><span>Puedes revocar el consentimiento que, en tu caso, nos hayas otorgado para el tratamiento de tus datos personales. Sin embargo, es importante que tengas en cuenta que no en todos los casos podremos atender tu solicitud o concluir el uso de forma inmediata, ya que es posible que por alguna obligación legal requiramos seguir tratando tus datos personales. Asimismo, deberás considerar que, para ciertos fines, la revocación de tu consentimiento implicará que no podrás seguir participando en las actividades del Proyecto Migala y por ende la conclusión de tu relación con nosotros.</span><br><br><span>Para revocar tu consentimiento deberás presentar una solicitud; así como para conocer el procedimiento y requisitos para la revocación del consentimiento, ponemos a tu disposición el correo electrónico </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><span> </span><br><strong>¿Cómo puedes limitar el uso o divulgación de tu información personal?</strong><br><span> </span><br><span>Con objeto de que puedas limitar el uso y divulgación de tu información personal, te solicitamos también escribir a nuestro correo electrónico, </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><span>.</span><br><span> </span><br><strong>El uso de tecnologías de rastreo en nuestro registro</strong><br><br><span>Te informamos que en nuestro registro utilizamos cookies, web beacons u otras tecnologías, a través de las cuales es posible monitorear tu comportamiento como usuario de internet, así como brindar un mejor servicio y experiencia al responder el formulario. Los datos personales que se recaban a través de estas tecnologías, los utilizaremos para armonizar la Construcción y organización del Proyecto Migala.</span><br><br><span>Los datos personales que obtenemos de estas tecnologías de rastreo son los siguientes:</span><br><br><span>•\tIdioma preferido por el usuario</span><br><span>•\tRegión en la que se encuentra el usuario</span><br><span>•\tTipo de navegador del usuario</span><br><span>•\tTipo de sistema operativo del usuario</span><br><br><span>Para conocer la forma en que se pueden deshabilitar estas tecnologías, ponerse en contacto al correo </span><a href=\"mailto:padron.pmigala@gmail.com\" rel=\"noopener noreferrer\" target=\"_blank\">padron.pmigala@gmail.com</a><br><br><strong>¿Cómo puedes conocer los cambios en este aviso de privacidad?</strong><br><span> </span><br><span>El presente aviso de privacidad puede sufrir modificaciones, cambios o actualizaciones derivadas de nuevos requerimientos legales; de nuestras propias necesidades de nuestra organización; de nuestras prácticas de privacidad; de cambios en nuestro modelo de trabajo, o por otras causas.</span><br><br><span>Nos comprometemos a informarte sobre los cambios que pueda sufrir el presente aviso de privacidad, a través de comunicado por correo electrónico.</span><br><br><span>El procedimiento a través del cual se llevarán a cabo las notificaciones sobre cambios o actualizaciones a través de comunicado por correo electrónico, del cual se solicitará la confirmación. </span></p>"
+        },
+        {
+          "type": "boolean",
+          "name": "acepto_aviso_privacidad",
+          "title": {
+            "es": "Acepto el aviso de privacidad"
+          },
+          "correctAnswer": true,
+          "isRequired": true,
+          "labelTrue": {
+            "es": "Sí"
+          },
+          "labelFalse": {
+            "es": "No"
+          }
+        }
+      ]
     },
     {
-     "type": "text",
-     "name": "correo_electronico",
-     "title": {
-      "es": "Correo electrónico"
-     },
-     "isRequired": true,
-     "inputType": "email",
-     "autoComplete": "email"
-    },
-    {
-     "type": "text",
-     "name": "telefono_celular",
-     "title": {
-      "es": "Teléfono celular"
-     },
-     "isRequired": true,
-     "inputType": "tel",
-     "autoComplete": "tel",
-     "maxLength": ""
-    },
-    {
-     "type": "text",
-     "name": "fecha_de_nacimiento",
-     "title": {
-      "es": "Fecha de nacimiento"
-     },
-     "isRequired": true,
-     "inputType": "date"
-    },
-    {
-     "type": "radiogroup",
-     "name": "nacionalidad",
-     "title": {
-      "es": "¿Cuál es tu nacionalidad?"
-     },
-     "choices": [
-      {
-       "value": "mexicana",
-       "text": {
-        "es": "Mexicana"
-       }
-      },
-      {
-       "value": "extranjera_naturalizada",
-       "text": {
-        "es": "Extranjera naturalizada"
-       }
-      },
-      {
-       "value": "extranjera",
-       "text": {
-        "es": "Extranjera"
-       }
+      "name": "primeros-datos_0",
+      "elements": [
+        {
+          "type": "html",
+          "name": "primeros datos",
+          "html": {
+            "es": "<h1>Primeros datos</h1>\n<p>En esta sección vamos a analizar cómo puedes participar</p>"
+          }
+        }
+      ],
+      "readOnly": true,
+      "title": {
+        "es": "Primeros datos"
       }
-     ]
-    }
-   ],
-   "title": {
-    "default": "Datos personales",
-    "es": "Primeros Datos"
-   }
-  },
-  {
-   "name": "datos-personales-especificos_0",
-   "elements": [
-    {
-     "type": "html",
-     "name": "datos-personales-especificos",
-     "html": {
-      "es": "<h1>Datos personales específicos</h1>\n<p>\nDatos sensibles: Tu nombre real, tu género, región y claves oficiales.\n</p>"
-     }
-    }
-   ],
-   "readOnly": true,
-   "title": {
-    "es": "Datos personales específicos"
-   }
-  },
-  {
-   "name": "datos-personales-especificos_1",
-   "elements": [
-    {
-     "type": "text",
-     "name": "nombres",
-     "title": {
-      "es": "Ingresa tus nombres"
-     },
-     "description": {
-      "es": "Ejemplos \"Jose\", \"Ana Karen\""
-     },
-     "isRequired": true,
-     "autoComplete": "name"
     },
     {
-     "type": "text",
-     "name": "primer_apellido",
-     "title": {
-      "es": "Ingresa tu primer apellido"
-     },
-     "description": {
-      "es": "Ejemplo: \"Sánchez\", \"Ruiz\"."
-     },
-     "isRequired": true
+      "name": "primeros-datos_1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "como-nos-referimos-a-ti",
+          "title": {
+            "es": "¿Cómo te gustaría que nos refiramos a ti?"
+          },
+          "description": {
+            "es": "Apodo, alguno o algunos de tus nombres en específico, nickname, diminutivo, etc. El nombre con el que te gustaría que te reconozcan."
+          },
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "correo_electronico",
+          "title": {
+            "es": "Correo electrónico"
+          },
+          "isRequired": true,
+          "inputType": "email",
+          "autoComplete": "email"
+        },
+        {
+          "type": "text",
+          "name": "telefono_celular",
+          "title": {
+            "es": "Teléfono celular"
+          },
+          "isRequired": true,
+          "inputType": "tel",
+          "autoComplete": "tel",
+          "maxLength": ""
+        },
+        {
+          "type": "text",
+          "name": "fecha_de_nacimiento",
+          "title": {
+            "es": "Fecha de nacimiento"
+          },
+          "isRequired": true,
+          "inputType": "date",
+          "validators": [
+            {
+              "type": "expression",
+              "text": "Tienes que ser mayor de 15 años",
+              "expression": "birthDateValidator({fecha_de_nacimiento})"
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "nacionalidad",
+          "title": {
+            "es": "¿Cuál es tu nacionalidad?"
+          },
+          "choices": [
+            {
+              "value": "mexicana",
+              "text": {
+                "es": "Mexicana"
+              }
+            },
+            {
+              "value": "extranjera_naturalizada",
+              "text": {
+                "es": "Extranjera naturalizada"
+              }
+            },
+            {
+              "value": "extranjera",
+              "text": {
+                "es": "Extranjera"
+              }
+            }
+          ]
+        }
+      ],
+      "title": {
+        "default": "Datos personales",
+        "es": "Primeros Datos"
+      }
     },
     {
-     "type": "text",
-     "name": "segundo_apellido",
-     "title": {
-      "es": "Ingresa tu segundo apellido"
-     },
-     "description": {
-      "es": "Ejemplo: \"Sánchez\", \"Ruiz\"."
-     },
-     "isRequired": true
+      "name": "datos-personales-especificos_0",
+      "elements": [
+        {
+          "type": "html",
+          "name": "datos-personales-especificos",
+          "html": {
+            "es": "<h1>Datos personales específicos</h1>\n<p>\nDatos sensibles: Tu nombre real, tu género, región y claves oficiales.\n</p>"
+          }
+        }
+      ],
+      "readOnly": true,
+      "title": {
+        "es": "Datos personales específicos"
+      }
     },
     {
-     "type": "radiogroup",
-     "name": "genero",
-     "title": {
-      "es": "¿Cuál es el género con el que te identificas?"
-     },
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "femenino",
-       "text": {
-        "es": "Femenino"
-       }
-      },
-      {
-       "value": "masculino",
-       "text": {
-        "es": "Masculino"
-       }
-      },
-      {
-       "value": "no_binario",
-       "text": {
-        "es": "No binario"
-       }
+      "name": "datos-personales-especificos_1",
+      "elements": [
+        {
+          "type": "text",
+          "name": "nombres",
+          "title": {
+            "es": "Ingresa tus nombres"
+          },
+          "description": {
+            "es": "Ejemplos \"Jose\", \"Ana Karen\""
+          },
+          "isRequired": true,
+          "autoComplete": "name"
+        },
+        {
+          "type": "text",
+          "name": "primer_apellido",
+          "title": {
+            "es": "Ingresa tu primer apellido"
+          },
+          "description": {
+            "es": "Ejemplo: \"Sánchez\", \"Ruiz\"."
+          },
+          "isRequired": true
+        },
+        {
+          "type": "text",
+          "name": "segundo_apellido",
+          "title": {
+            "es": "Ingresa tu segundo apellido"
+          },
+          "description": {
+            "es": "Ejemplo: \"Sánchez\", \"Ruiz\"."
+          },
+          "isRequired": true
+        },
+        {
+          "type": "radiogroup",
+          "name": "genero",
+          "title": {
+            "es": "¿Cuál es el género con el que te identificas?"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "femenino",
+              "text": {
+                "es": "Femenino"
+              }
+            },
+            {
+              "value": "masculino",
+              "text": {
+                "es": "Masculino"
+              }
+            },
+            {
+              "value": "no_binario",
+              "text": {
+                "es": "No binario"
+              }
+            }
+          ]
+        },
+        {
+          "type": "radiogroup",
+          "name": "tienes_una_discapacidad",
+          "title": {
+            "es": "¿Tienes algún tipo de discapacidad?"
+          },
+          "choices": [
+            {
+              "value": "si",
+              "text": {
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "text": {
+                "es": "No"
+              }
+            }
+          ]
+        }
+      ],
+      "title": {
+        "es": "Datos personales específicos"
       }
-     ]
     },
     {
-     "type": "radiogroup",
-     "name": "tienes_una_discapacidad",
-     "title": {
-      "es": "¿Tienes algún tipo de discapacidad?"
-     },
-     "choices": [
-      {
-       "value": "si",
-       "text": {
-        "es": "Sí"
-       }
-      },
-      {
-       "value": "no",
-       "text": {
-        "es": "No"
-       }
+      "name": "datos-personales-especificos_2",
+      "elements": [
+        {
+          "type": "text",
+          "name": "curp",
+          "title": {
+            "es": "Ingresa tu Clave Unica de Registro Poblacional (CURP)"
+          },
+          "description": {
+            "es": "¿No conoces ese dato? Consúltalo aquí: <https://www.gob.mx/curp/>"
+          },
+          "isRequired": true,
+          "validators": [
+            {
+              "type": "regex",
+              "text": {
+                "es": "Formato de CURP"
+              },
+              "regex": "^([A-Z][AEIOUX][A-Z]{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\\d])(\\d)$"
+            }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "entidad_federativa",
+          "title": {
+            "es": "¿En qué entidad federativa resides?"
+          },
+          "isRequired": true,
+          "choices": [
+            "Aguascalientes",
+            "Baja California",
+            "Baja California Sur",
+            "Campeche",
+            "Coahuila de Zaragoza",
+            "Colima",
+            "Chiapas",
+            "Chihuahua",
+            "Ciudad de México",
+            "Durango",
+            "Guanajuato",
+            "Guerrero",
+            "Hidalgo",
+            "Jalisco",
+            "México",
+            "Michoacán de Ocampo",
+            "Morelos",
+            "Nayarit",
+            "Nuevo León",
+            "Oaxaca",
+            "Puebla",
+            "Querétaro",
+            "Quintana Roo",
+            "San Luis Potosí",
+            "Sinaloa",
+            "Sonora",
+            "Tabasco",
+            "Tamaulipas",
+            "Tlaxcala",
+            "Veracruz de Ignacio de la Llave",
+            "Yucatán",
+            "Zacatecas"
+          ]
+        },
+        {
+          "type": "text",
+          "name": "municipio_alcaldia",
+          "title": {
+            "es": "¿En qué municipio o alcaldía vives? "
+          },
+          "description": {
+            "es": "Ejemplos: \"Atlacomulco\", \"Iztacalco\", \"Canatlán\""
+          },
+          "isRequired": true
+        }
+      ],
+      "visibleIf": "{nacionalidad} <> 'extranjera'",
+      "title": {
+        "es": "Datos personales específicos"
       }
-     ]
-    }
-   ],
-   "title": {
-    "es": "Datos personales específicos"
-   }
-  },
-  {
-   "name": "datos-personales-especificos_2",
-   "elements": [
-    {
-     "type": "text",
-     "name": "curp",
-     "title": {
-      "es": "Ingresa tu Clave Unica de Registro Poblacional (CURP)"
-     },
-     "description": {
-      "es": "¿No conoces ese dato? Consúltalo aquí: <https://www.gob.mx/curp/>"
-     },
-     "isRequired": true,
-     "validators": [
-      {
-       "type": "regex",
-       "text": {
-        "es": "Formato de CURP"
-       },
-       "regex": "^([A-Z][AEIOUX][A-Z]{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\\d])(\\d)$"
-      }
-     ]
     },
     {
-     "type": "dropdown",
-     "name": "entidad_federativa",
-     "title": {
-      "es": "¿En qué entidad federativa resides?"
-     },
-     "isRequired": true,
-     "choices": [
-      "Aguascalientes",
-      "Baja California",
-      "Baja California Sur",
-      "Campeche",
-      "Coahuila de Zaragoza",
-      "Colima",
-      "Chiapas",
-      "Chihuahua",
-      "Ciudad de México",
-      "Durango",
-      "Guanajuato",
-      "Guerrero",
-      "Hidalgo",
-      "Jalisco",
-      "México",
-      "Michoacán de Ocampo",
-      "Morelos",
-      "Nayarit",
-      "Nuevo León",
-      "Oaxaca",
-      "Puebla",
-      "Querétaro",
-      "Quintana Roo",
-      "San Luis Potosí",
-      "Sinaloa",
-      "Sonora",
-      "Tabasco",
-      "Tamaulipas",
-      "Tlaxcala",
-      "Veracruz de Ignacio de la Llave",
-      "Yucatán",
-      "Zacatecas"
-     ]
+      "name": "datos-personales-especificos_3",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel_clave_elector",
+          "elements": [
+            {
+              "type": "image",
+              "name": "imagen_clave_elector",
+              "imageLink": "/images/ine_clave_elector.png"
+            },
+            {
+              "type": "text",
+              "name": "clave_elector",
+              "title": {
+                "es": "Ingresa tu clave de elector"
+              },
+              "description": {
+                "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen. Si no cuentas con tu credencial, puedes omitirla.\n\n"
+              },
+              "validators": [
+                {
+                  "type": "regex",
+                  "text": {
+                    "es": "Formato de Clave de Elector"
+                  },
+                  "regex": "^([A-Z]{6}[0-9]{7,8}[HM][0-9]{3})$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "panel",
+          "name": "panel1",
+          "elements": [
+            {
+              "type": "image",
+              "name": "question4",
+              "imageLink": "/images/ine_seccion.png"
+            },
+            {
+              "type": "text",
+              "name": "seccion_electoral",
+              "title": {
+                "es": "Sección Electoral"
+              },
+              "description": {
+                "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen.\n\n\nEsta pregunta es obligatoria porque es muy importante responderla bien.\n\nSi no cuentas con credencial, solicita permiso para buscar en la credencial de alguien que viva en tu misma manzana; o puedes buscar tu domicilio en este mapa: https://cartografia.ife.org.mx/sige7/?cartografia=mapas\n\nSi vives en el extranjero, solo escribe 9999"
+              },
+              "isRequired": true,
+              "validators": [
+                {
+                  "type": "regex",
+                  "text": {
+                    "es": "Formato de Sección Electoral"
+                  },
+                  "regex": "^([0-9]{3,4})$"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "visibleIf": "{nacionalidad} <> 'extranjera'",
+      "title": {
+        "es": "Datos personales específicos"
+      }
     },
     {
-     "type": "text",
-     "name": "municipio_alcaldia",
-     "title": {
-      "es": "¿En qué municipio o alcaldía vives? "
-     },
-     "description": {
-      "es": "Ejemplos: \"Atlacomulco\", \"Iztacalco\", \"Canatlán\""
-     },
-     "isRequired": true
-    }
-   ],
-   "visibleIf": "{nacionalidad} <> 'extranjera'",
-   "title": {
-    "es": "Datos personales específicos"
-   }
-  },
-  {
-   "name": "datos-personales-especificos_3",
-   "elements": [
-    {
-     "type": "panel",
-     "name": "panel_clave_elector",
-     "elements": [
-      {
-       "type": "image",
-       "name": "imagen_clave_elector",
-       "imageLink": "/images/ine_clave_elector.png"
-      },
-      {
-       "type": "text",
-       "name": "clave_elector",
-       "title": {
-        "es": "Ingresa tu clave de elector"
-       },
-       "description": {
-        "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen. Si no cuentas con tu credencial, puedes omitirla.\n\n"
-       }
+      "name": "formacion-y-ocupacion_0",
+      "elements": [
+        {
+          "type": "html",
+          "name": "portada_formacion_ocupacion",
+          "html": {
+            "es": "<h1>Formación y ocupación</h1>\n<p>En esta sección se piden datos de tu formación académica y ocupación actual</p>"
+          }
+        }
+      ],
+      "readOnly": true,
+      "title": {
+        "es": "Formación y ocupación"
       }
-     ]
     },
     {
-     "type": "panel",
-     "name": "panel1",
-     "elements": [
-      {
-       "type": "image",
-       "name": "question4",
-       "imageLink": "/images/ine_seccion.png"
-      },
-      {
-       "type": "text",
-       "name": "seccion_electoral",
-       "title": {
-        "es": "Sección Electoral"
-       },
-       "description": {
-        "es": "Ese dato lo encuentras en tu credencial para votar del INE, justo en la sección que indica la imagen.\n\n\nEsta pregunta es obligatoria porque es muy importante responderla bien.\n\nSi no cuentas con credencial, solicita permiso para buscar en la credencial de alguien que viva en tu misma manzana; o puedes buscar tu domicilio en este mapa: https://cartografia.ife.org.mx/sige7/?cartografia=mapas\n\nSi vives en el extranjero, solo escribe 9999"
-       },
-       "isRequired": true
+      "name": "formacion-y-ocupacion_1",
+      "elements": [
+        {
+          "type": "checkbox",
+          "name": "ocupacion",
+          "title": {
+            "es": "¿Cuál es actualmente tu ocupación?"
+          },
+          "isRequired": true,
+          "choices": [
+            "Estudiante",
+            "Empleadx de sector privado",
+            "Empleadx de sector público a nivel local",
+            "Empleadx de sector público a nivel Federal",
+            "Empleadx de sector público a nivel Organización/sindicato",
+            "Servicio social/Beneficencia",
+            "Negocio propio",
+            "Servicios Freelance",
+            "Desempleadx"
+          ],
+          "hasOther": true,
+          "otherText": {
+            "es": "Otro"
+          },
+          "maxSelectedChoices": 3
+        },
+        {
+          "type": "radiogroup",
+          "name": "grado_estudios",
+          "title": {
+            "es": "¿Cuál es tu último grado de estudios?"
+          },
+          "isRequired": true,
+          "choices": [
+            "Primaria",
+            "Secundaria",
+            "Bachillerato",
+            "Universidad",
+            "Posgrado"
+          ],
+          "hasOther": true,
+          "otherText": {
+            "es": "Otro"
+          }
+        }
+      ],
+      "title": {
+        "es": "Formación y ocupación"
       }
-     ]
-    }
-   ],
-   "visibleIf": "{nacionalidad} <> 'extranjera'",
-   "title": {
-    "es": "Datos personales específicos"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_0",
-   "elements": [
-    {
-     "type": "html",
-     "name": "portada_formacion_ocupacion",
-     "html": {
-      "es": "<h1>Formación y ocupación</h1>\n<p>En esta sección se piden datos de tu formación académica y ocupación actual</p>"
-     }
-    }
-   ],
-   "readOnly": true,
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_1",
-   "elements": [
-    {
-     "type": "checkbox",
-     "name": "ocupacion",
-     "title": {
-      "es": "¿Cuál es actualmente tu ocupación?"
-     },
-     "isRequired": true,
-     "choices": [
-      "Estudiante",
-      "Empleadx de sector privado",
-      "Empleadx de sector público a nivel local",
-      "Empleadx de sector público a nivel Federal",
-      "Empleadx de sector público a nivel Organización/sindicato",
-      "Servicio social/Beneficencia",
-      "Negocio propio",
-      "Servicios Freelance",
-      "Desempleadx"
-     ],
-     "hasOther": true,
-     "otherText": {
-      "es": "Otro"
-     },
-     "maxSelectedChoices": 3
     },
     {
-     "type": "radiogroup",
-     "name": "grado_estudios",
-     "title": {
-      "es": "¿Cuál es tu último grado de estudios?"
-     },
-     "isRequired": true,
-     "choices": [
-      "Primaria",
-      "Secundaria",
-      "Bachillerato",
-      "Universidad",
-      "Posgrado"
-     ],
-     "hasOther": true,
-     "otherText": {
-      "es": "Otro"
-     }
-    }
-   ],
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_2",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "trabajas_en_lo_que_estudiaste",
-     "title": {
-      "es": "¿Trabajas en lo que estudiaste?"
-     },
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "si",
-       "text": {
-        "es": "Sí"
-       }
-      },
-      {
-       "value": "no",
-       "text": {
-        "es": "No"
-       }
-      },
-      {
-       "value": "na",
-       "text": {
-        "es": "No aplica en mi caso"
-       }
+      "name": "formacion-y-ocupacion_2",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "trabajas_en_lo_que_estudiaste",
+          "title": {
+            "es": "¿Trabajas en lo que estudiaste?"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "si",
+              "text": {
+                "es": "Sí"
+              }
+            },
+            {
+              "value": "no",
+              "text": {
+                "es": "No"
+              }
+            },
+            {
+              "value": "na",
+              "text": {
+                "es": "No aplica en mi caso"
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "especializacion",
+          "title": {
+            "es": "Especifica sobre tu formación, ¿En qué área te especializas?"
+          },
+          "description": {
+            "es": "Si no aplica, puedes ignorar la pregunta"
+          },
+          "choices": [
+            "Área I, Ciencias Físico - Matemáticas y de las Ingenierías",
+            "Área II, Ciencias biológicas, químicas y de la salud",
+            "Área III Ciencias Sociales, económicas y administrativas",
+            "Área IV, Artes y Humanidades",
+            "Área V, Actividades Agropecuarias"
+          ]
+        }
+      ],
+      "title": {
+        "es": "Formación y ocupación"
       }
-     ]
     },
     {
-     "type": "checkbox",
-     "name": "especializacion",
-     "title": {
-      "es": "Especifica sobre tu formación, ¿En qué área te especializas?"
-     },
-     "description": {
-      "es": "Si no aplica, puedes ignorar la pregunta"
-     },
-     "choices": [
-      "Área I, Ciencias Físico - Matemáticas y de las Ingenierías",
-      "Área II, Ciencias biológicas, químicas y de la salud",
-      "Área III Ciencias Sociales, económicas y administrativas",
-      "Área IV, Artes y Humanidades",
-      "Área V, Actividades Agropecuarias"
-     ]
-    }
-   ],
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_3",
-   "elements": [
-    {
-     "type": "text",
-     "name": "a_que_te_dedicas",
-     "title": {
-      "es": "Específicamente ¿a qué te dedicas?"
-     },
-     "description": {
-      "es": "Tu puesto de trabajo, tiempo de experiencia, el giro de tu negocio o si eres estudiante o estás desempleado, ejemplo: \"Reclutador de personal\", \"Tele-operador\", \"desarrollador de software freelance\", \"4 años de experiencia\" \"estudiante de secundaria\", \"Estudiante de ingeniería\", \"Desempleado\". etc\n\n"
-     },
-     "isRequired": true
+      "name": "formacion-y-ocupacion_3",
+      "elements": [
+        {
+          "type": "text",
+          "name": "a_que_te_dedicas",
+          "title": {
+            "es": "Específicamente ¿a qué te dedicas?"
+          },
+          "description": {
+            "es": "Tu puesto de trabajo, tiempo de experiencia, el giro de tu negocio o si eres estudiante o estás desempleado, ejemplo: \"Reclutador de personal\", \"Tele-operador\", \"desarrollador de software freelance\", \"4 años de experiencia\" \"estudiante de secundaria\", \"Estudiante de ingeniería\", \"Desempleado\". etc\n\n"
+          },
+          "isRequired": true
+        },
+        {
+          "type": "panel",
+          "name": "panel4",
+          "elements": [
+            {
+              "type": "checkbox",
+              "name": "actividades_recreativas",
+              "title": {
+                "es": "¿En que actividades recreativas participas fuera de tu actividad laboral/formativa? Puedes seleccionar hasta tres casillas"
+              },
+              "choices": [
+                "Deportivas",
+                "Artísticas",
+                "Producción de contenido para internet",
+                "No hago actividades extra",
+                "Tecla"
+              ],
+              "hasOther": true,
+              "otherText": {
+                "es": "Otro"
+              },
+              "maxSelectedChoices": 3
+            },
+            {
+              "type": "text",
+              "name": "actividades_especificas",
+              "title": {
+                "es": "¿Puedes especificar qué actividad(es) realizas?"
+              },
+              "description": {
+                "es": "Ejemplos: \"fisico-culturismo\", \"Danza contemporanea\","
+              },
+              "enableIf": "{actividades_recreativas} notempty"
+            }
+          ]
+        }
+      ],
+      "title": {
+        "es": "Formación y ocupación"
+      }
     },
     {
-     "type": "panel",
-     "name": "panel4",
-     "elements": [
-      {
-       "type": "checkbox",
-       "name": "actividades_recreativas",
-       "title": {
-        "es": "¿En que actividades recreativas participas fuera de tu actividad laboral/formativa? Puedes seleccionar hasta tres casillas"
-       },
-       "choices": [
-        "Deportivas",
-        "Artísticas",
-        "Producción de contenido para internet",
-        "No hago actividades extra",
-        "Tecla"
-       ],
-       "hasOther": true,
-       "otherText": {
-        "es": "Otro"
-       },
-       "maxSelectedChoices": 3
-      },
-      {
-       "type": "text",
-       "name": "actividades_especificas",
-       "title": {
-        "es": "¿Puedes especificar qué actividad(es) realizas?"
-       },
-       "description": {
-        "es": "Ejemplos: \"fisico-culturismo\", \"Danza contemporanea\","
-       },
-       "enableIf": "{actividades_recreativas} notempty"
+      "name": "formacion-y-ocupacion_4",
+      "elements": [
+        {
+          "type": "panel",
+          "name": "panel5",
+          "elements": [
+            {
+              "type": "checkbox",
+              "name": "actividades_politicas_sociales",
+              "title": {
+                "es": "¿En qué tipo de actividades políticas y/o sociales has participado?"
+              },
+              "description": {
+                "es": "Selecciona las que sean necesarias"
+              },
+              "choices": [
+                "Activismo",
+                "ONGs y organización sin fines de lucro",
+                "Partidista",
+                "Administración pública",
+                "Trabajo comunitario",
+                "Sindicato",
+                "Cooperativas u organizaciones de la economía social y solidaria",
+                "Ninguna"
+              ],
+              "hasOther": true,
+              "otherText": {
+                "es": "Otro"
+              }
+            },
+            {
+              "type": "text",
+              "name": "cuentanos_actividades_politicas_sociales",
+              "title": {
+                "es": "Cuéntanos en qué tipo de actividades políticas y/o sociales has participado, por cuánto tiempo y haciendo qué."
+              },
+              "enableIf": "{actividades_politicas_sociales} notempty"
+            }
+          ]
+        }
+      ],
+      "title": {
+        "es": "Formación y ocupación"
       }
-     ]
-    }
-   ],
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_4",
-   "elements": [
-    {
-     "type": "panel",
-     "name": "panel5",
-     "elements": [
-      {
-       "type": "checkbox",
-       "name": "actividades_politicas_sociales",
-       "title": {
-        "es": "¿En qué tipo de actividades políticas y/o sociales has participado?"
-       },
-       "description": {
-        "es": "Selecciona las que sean necesarias"
-       },
-       "choices": [
-        "Activismo",
-        "ONGs y organización sin fines de lucro",
-        "Partidista",
-        "Administración pública",
-        "Trabajo comunitario",
-        "Sindicato",
-        "Cooperativas u organizaciones de la economía social y solidaria",
-        "Ninguna"
-       ],
-       "hasOther": true,
-       "otherText": {
-        "es": "Otro"
-       }
-      },
-      {
-       "type": "text",
-       "name": "cuentanos_actividades_politicas_sociales",
-       "title": {
-        "es": "Cuéntanos en qué tipo de actividades políticas y/o sociales has participado, por cuánto tiempo y haciendo qué."
-       },
-       "enableIf": "{actividades_politicas_sociales} notempty"
-      }
-     ]
-    }
-   ],
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "formacion-y-ocupacion_5",
-   "elements": [
-    {
-     "type": "text",
-     "name": "oficio_conocimientos_tecnicos",
-     "title": {
-      "es": "¿Sabes algún oficio?, ¿Tienes otros conocimientos técnicos? cuéntanos"
-     }
-    }
-   ],
-   "title": {
-    "es": "Formación y ocupación"
-   }
-  },
-  {
-   "name": "participacion_0",
-   "elements": [
-    {
-     "type": "html",
-     "name": "portada_seccion_participacion",
-     "html": {
-      "es": "<h1>Participación e intenciones en el proyecto</h1>\n<p>Disponibilidad, actividades de interés, etc</p>"
-     }
-    }
-   ],
-   "readOnly": true,
-   "title": {
-    "es": "Participación e intenciones en el proyecto"
-   }
-  },
-  {
-   "name": "participacion_1",
-   "elements": [
-    {
-     "type": "radiogroup",
-     "name": "tipo_paticipacion",
-     "title": {
-      "es": "¿Cómo te gustaría participar en este proyecto?"
-     },
-     "description": {
-      "es": "Contesta con honestidad, no pasa nada, la honestidad es necesaria. Selecciona solo una opción."
-     },
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "a",
-       "text": {
-        "es": "Tienen mi apoyo, pero no puedo participar de forma activa."
-       }
-      },
-      {
-       "value": "b",
-       "text": {
-        "es": "Me gustaría integrarme en algunas actividades digitales específicas que no me requieran mucho tiempo"
-       }
-      },
-      {
-       "value": "c",
-       "text": {
-        "es": "Podría participar en actividades de conformación del partido de forma activa siempre y cuando no intervengan con mis otras actividades."
-       }
-      },
-      {
-       "value": "d",
-       "text": {
-        "es": "Podría dedicar la mitad de mi tiempo de forma física y digital al proyecto."
-       }
-      },
-      {
-       "value": "e",
-       "text": {
-        "es": "Podría dedicarme de tiempo completo de forma física y digital al proyecto."
-       }
-      }
-     ]
     },
     {
-     "type": "checkbox",
-     "name": "actividades_a_integrarse",
-     "title": {
-      "es": "¿A qué actividades podrías o te gustaría integrarte?"
-     },
-     "description": {
-      "es": "Puedes seleccionar hasta tres casillas"
-     },
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "a",
-       "text": {
-        "es": "Trabajo de campo"
-       }
-      },
-      {
-       "value": "b",
-       "text": {
-        "es": "Organización en línea"
-       }
-      },
-      {
-       "value": "c",
-       "text": {
-        "es": "Diseño y/o comunicación"
-       }
-      },
-      {
-       "value": "d",
-       "text": {
-        "es": "Programación y desarrollo web"
-       }
-      },
-      {
-       "value": "e",
-       "text": {
-        "es": "Labores administrativas"
-       }
-      },
-      {
-       "value": "f",
-       "text": {
-        "es": "Trámites frente a gobierno"
-       }
+      "name": "formacion-y-ocupacion_5",
+      "elements": [
+        {
+          "type": "text",
+          "name": "oficio_conocimientos_tecnicos",
+          "title": {
+            "es": "¿Sabes algún oficio?, ¿Tienes otros conocimientos técnicos? cuéntanos"
+          }
+        }
+      ],
+      "title": {
+        "es": "Formación y ocupación"
       }
-     ],
-     "hasOther": true,
-     "otherText": {
-      "es": "Otro"
-     },
-     "maxSelectedChoices": 3
-    }
-   ],
-   "title": {
-    "es": "Participación e intenciones en el proyecto"
-   }
-  },
-  {
-   "name": "participacion_2",
-   "elements": [
-    {
-     "type": "matrix",
-     "name": "question7",
-     "title": {
-      "es": "Hagamos un ejercicio mental ¿Qué días y cuántas horas puedes dedicarle al proyecto?"
-     },
-     "columns": [
-      {
-       "value": "sin_tiempo",
-       "text": {
-        "es": "Sin tiempo disponible"
-       }
-      },
-      {
-       "value": "1-3",
-       "text": {
-        "es": "1 a 3 hrs"
-       }
-      },
-      {
-       "value": "4-6",
-       "text": {
-        "es": "4 a 6 hrs"
-       }
-      },
-      {
-       "value": "6-8",
-       "text": {
-        "es": "6 a 8 hrs"
-       }
-      },
-      {
-       "value": "8-mas",
-       "text": {
-        "es": "8 o más hrs"
-       }
-      }
-     ],
-     "rows": [
-      {
-       "value": "lunes",
-       "text": {
-        "es": "Lunes"
-       }
-      },
-      {
-       "value": "martes",
-       "text": {
-        "es": "Martes"
-       }
-      },
-      {
-       "value": "miercoles",
-       "text": {
-        "es": "Miércoles"
-       }
-      },
-      {
-       "value": "jueves",
-       "text": {
-        "es": "Jueves"
-       }
-      },
-      {
-       "value": "viernes",
-       "text": {
-        "es": "Viernes"
-       }
-      },
-      {
-       "value": "sabado",
-       "text": {
-        "es": "Sábado"
-       }
-      },
-      {
-       "value": "domingo",
-       "text": {
-        "es": "Domingo"
-       }
-      }
-     ]
-    }
-   ],
-   "title": {
-    "es": "Participación e intenciones en el proyecto"
-   }
-  },
-  {
-   "name": "participacion_3",
-   "elements": [
-    {
-     "type": "checkbox",
-     "name": "conexiones",
-     "title": {
-      "es": "La forma de organización digital requiere que tengamos la capacidad para que estemos todos conectad@s ¿cuentas con lo siguiente?"
-     },
-     "isRequired": true,
-     "choices": [
-      {
-       "value": "a",
-       "text": {
-        "es": "Servicio de internet regular en casa"
-       }
-      },
-      {
-       "value": "b",
-       "text": {
-        "es": "Servicio de datos móviles para vivienda"
-       }
-      },
-      {
-       "value": "c",
-       "text": {
-        "es": "Teléfono celular con conexión a Internet"
-       }
-      },
-      {
-       "value": "d",
-       "text": {
-        "es": "Me conecto en la escuela, plazas públicas o cybercafés"
-       }
-      },
-      {
-       "value": "e",
-       "text": {
-        "es": "Me conecto a internet de forma esporádica"
-       }
-      }
-     ],
-     "hasOther": true,
-     "otherText": {
-      "es": "Otro"
-     },
-     "maxSelectedChoices": 2
     },
     {
-     "type": "radiogroup",
-     "name": "familiaridad_ti",
-     "title": {
-      "es": "¿Qué tanto estás familiarizadx con el manejo de las tecnologías de la información?"
-     },
-     "isRequired": true,
-     "choices": [
-      "Nada",
-      "Tecla",
-      "Muy poco",
-      "Medianamente",
-      "Bien",
-      "Muy bien"
-     ]
+      "name": "participacion_0",
+      "elements": [
+        {
+          "type": "html",
+          "name": "portada_seccion_participacion",
+          "html": {
+            "es": "<h1>Participación e intenciones en el proyecto</h1>\n<p>Disponibilidad, actividades de interés, etc</p>"
+          }
+        }
+      ],
+      "readOnly": true,
+      "title": {
+        "es": "Participación e intenciones en el proyecto"
+      }
     },
     {
-     "type": "checkbox",
-     "name": "aplicaciones_o_redes",
-     "title": {
-      "es": "¿Cuáles de estas aplicaciones o redes de comunicación usas más?"
-     },
-     "isRequired": true,
-     "choices": [
-      "Facebook",
-      "Discord",
-      "Zoom",
-      "Google meet",
-      "Jitsi meet",
-      "Facebook messenger",
-      "Whatsapp",
-      "Telegram"
-     ],
-     "hasNone": true,
-     "noneText": {
-      "es": "Ninguna"
-     }
+      "name": "participacion_1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "tipo_paticipacion",
+          "title": {
+            "es": "¿Cómo te gustaría participar en este proyecto?"
+          },
+          "description": {
+            "es": "Contesta con honestidad, no pasa nada, la honestidad es necesaria. Selecciona solo una opción."
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "a",
+              "text": {
+                "es": "Tienen mi apoyo, pero no puedo participar de forma activa."
+              }
+            },
+            {
+              "value": "b",
+              "text": {
+                "es": "Me gustaría integrarme en algunas actividades digitales específicas que no me requieran mucho tiempo"
+              }
+            },
+            {
+              "value": "c",
+              "text": {
+                "es": "Podría participar en actividades de conformación del partido de forma activa siempre y cuando no intervengan con mis otras actividades."
+              }
+            },
+            {
+              "value": "d",
+              "text": {
+                "es": "Podría dedicar la mitad de mi tiempo de forma física y digital al proyecto."
+              }
+            },
+            {
+              "value": "e",
+              "text": {
+                "es": "Podría dedicarme de tiempo completo de forma física y digital al proyecto."
+              }
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "actividades_a_integrarse",
+          "title": {
+            "es": "¿A qué actividades podrías o te gustaría integrarte?"
+          },
+          "description": {
+            "es": "Puedes seleccionar hasta tres casillas"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "a",
+              "text": {
+                "es": "Trabajo de campo"
+              }
+            },
+            {
+              "value": "b",
+              "text": {
+                "es": "Organización en línea"
+              }
+            },
+            {
+              "value": "c",
+              "text": {
+                "es": "Diseño y/o comunicación"
+              }
+            },
+            {
+              "value": "d",
+              "text": {
+                "es": "Programación y desarrollo web"
+              }
+            },
+            {
+              "value": "e",
+              "text": {
+                "es": "Labores administrativas"
+              }
+            },
+            {
+              "value": "f",
+              "text": {
+                "es": "Trámites frente a gobierno"
+              }
+            }
+          ],
+          "hasOther": true,
+          "otherText": {
+            "es": "Otro"
+          },
+          "maxSelectedChoices": 3
+        }
+      ],
+      "title": {
+        "es": "Participación e intenciones en el proyecto"
+      }
+    },
+    {
+      "name": "participacion_2",
+      "elements": [
+        {
+          "type": "matrix",
+          "name": "question7",
+          "title": {
+            "es": "Hagamos un ejercicio mental ¿Qué días y cuántas horas puedes dedicarle al proyecto?"
+          },
+          "columns": [
+            {
+              "value": "sin_tiempo",
+              "text": {
+                "es": "Sin tiempo disponible"
+              }
+            },
+            {
+              "value": "1-3",
+              "text": {
+                "es": "1 a 3 hrs"
+              }
+            },
+            {
+              "value": "4-6",
+              "text": {
+                "es": "4 a 6 hrs"
+              }
+            },
+            {
+              "value": "6-8",
+              "text": {
+                "es": "6 a 8 hrs"
+              }
+            },
+            {
+              "value": "8-mas",
+              "text": {
+                "es": "8 o más hrs"
+              }
+            }
+          ],
+          "rows": [
+            {
+              "value": "lunes",
+              "text": {
+                "es": "Lunes"
+              }
+            },
+            {
+              "value": "martes",
+              "text": {
+                "es": "Martes"
+              }
+            },
+            {
+              "value": "miercoles",
+              "text": {
+                "es": "Miércoles"
+              }
+            },
+            {
+              "value": "jueves",
+              "text": {
+                "es": "Jueves"
+              }
+            },
+            {
+              "value": "viernes",
+              "text": {
+                "es": "Viernes"
+              }
+            },
+            {
+              "value": "sabado",
+              "text": {
+                "es": "Sábado"
+              }
+            },
+            {
+              "value": "domingo",
+              "text": {
+                "es": "Domingo"
+              }
+            }
+          ]
+        }
+      ],
+      "title": {
+        "es": "Participación e intenciones en el proyecto"
+      }
+    },
+    {
+      "name": "participacion_3",
+      "elements": [
+        {
+          "type": "checkbox",
+          "name": "conexiones",
+          "title": {
+            "es": "La forma de organización digital requiere que tengamos la capacidad para que estemos todos conectad@s ¿cuentas con lo siguiente?"
+          },
+          "isRequired": true,
+          "choices": [
+            {
+              "value": "a",
+              "text": {
+                "es": "Servicio de internet regular en casa"
+              }
+            },
+            {
+              "value": "b",
+              "text": {
+                "es": "Servicio de datos móviles para vivienda"
+              }
+            },
+            {
+              "value": "c",
+              "text": {
+                "es": "Teléfono celular con conexión a Internet"
+              }
+            },
+            {
+              "value": "d",
+              "text": {
+                "es": "Me conecto en la escuela, plazas públicas o cybercafés"
+              }
+            },
+            {
+              "value": "e",
+              "text": {
+                "es": "Me conecto a internet de forma esporádica"
+              }
+            }
+          ],
+          "hasOther": true,
+          "otherText": {
+            "es": "Otro"
+          },
+          "maxSelectedChoices": 2
+        },
+        {
+          "type": "radiogroup",
+          "name": "familiaridad_ti",
+          "title": {
+            "es": "¿Qué tanto estás familiarizadx con el manejo de las tecnologías de la información?"
+          },
+          "isRequired": true,
+          "choices": [
+            "Nada",
+            "Tecla",
+            "Muy poco",
+            "Medianamente",
+            "Bien",
+            "Muy bien"
+          ]
+        },
+        {
+          "type": "checkbox",
+          "name": "aplicaciones_o_redes",
+          "title": {
+            "es": "¿Cuáles de estas aplicaciones o redes de comunicación usas más?"
+          },
+          "isRequired": true,
+          "choices": [
+            "Facebook",
+            "Discord",
+            "Zoom",
+            "Google meet",
+            "Jitsi meet",
+            "Facebook messenger",
+            "Whatsapp",
+            "Telegram"
+          ],
+          "hasNone": true,
+          "noneText": {
+            "es": "Ninguna"
+          }
+        }
+      ],
+      "title": {
+        "es": "Participación e intenciones en el proyecto"
+      }
     }
-   ],
-   "title": {
-    "es": "Participación e intenciones en el proyecto"
-   }
-  }
- ],
- "showPageTitles": false
+  ],
+  "showPageTitles": false
 }
