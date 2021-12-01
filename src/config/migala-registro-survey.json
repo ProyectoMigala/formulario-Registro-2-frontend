@@ -88,9 +88,15 @@
             "es": "Teléfono celular"
           },
           "isRequired": true,
-          "inputType": "tel",
-          "autoComplete": "tel",
-          "maxLength": ""
+          "validators": [
+            {
+              "type": "regex",
+              "text": {
+                "es": "Ingrese un número de Teléfono celular válido"
+              },
+              "regex": "^([0-9]{10})$"
+            }
+          ]
         },
         {
           "type": "text",
