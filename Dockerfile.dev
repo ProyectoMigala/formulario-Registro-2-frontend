@@ -5,6 +5,7 @@ WORKDIR /home/node/app/
 COPY yarn.lock .
 COPY package.json .
 
+RUN yarn install
 RUN yarn
 
 COPY . .
