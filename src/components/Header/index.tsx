@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 
 import WhiteLogo from '../../assets/logo_pm_white.png'
 
 export function Header() {
 
+  let timeoutReference:any = useRef(null)
   const [fullSize, setFullSize] = useState(true);
 
   const handleScroll = ()=>{
+    timeoutReference.current && clearTimeout(timeoutReference.current)
     setFullSize(false);
   }
 
@@ -15,7 +17,7 @@ export function Header() {
   }
 
   const setUpScrollTimeout = () => {
-    setTimeout(() => {
+    timeoutReference.current = setTimeout(() => {
       window.scrollTo({
         top: 120,
         behavior: 'smooth'
