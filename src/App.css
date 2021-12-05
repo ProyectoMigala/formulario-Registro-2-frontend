@@ -24,6 +24,10 @@
   min-height: 160px;
 }
 
+.container-aviso-privacidad {
+  max-height: 60vh;
+} 
+
 .logo-image-container {
   width: 100%;
   height: 100%;
