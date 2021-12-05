@@ -16,9 +16,128 @@
   font-size: calc(10px + 2vmin);
   color: white;
   transition: all 1s;
+  overflow: hidden;
+  position: relative;
 }
 
 .minsize {
-  min-height: 100px;
-  height: 100px;
+  min-height: 160px;
+}
+
+.logo-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  animation: fade-in 5000ms linear;
+}
+
+.header-title {
+  font-size: calc(12px + 2vmin);
+}
+
+.logo-header-img {
+  width: calc(10% + 7vmin);
+  height: calc(10% + 7vmin);
+  padding: 10px 0 0;
+  object-fit: contain;
+
+  animation: spin 5000ms linear infinite;
+  z-index: 5;
+}
+
+
+.circles-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  border-radius: 100%;
+  position: absolute;
+}
+
+.circle-1{
+  width: 510px;
+  height: 510px;
+  opacity: .3;
+  background: #d13ce3;
+  z-index: 1;
+  top: -100px;
+  left: -250px;
+  animation: leftEntry 1200ms linear;
+}
+
+.circle-2{
+  width: 410px;
+  height: 410px;
+  opacity: .3;
+  background: #a2be1d;
+  z-index: 1;
+  bottom: -120px;
+  right: -310px;
+  animation: rightEntry 1300ms linear;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  .logo-header-img {
+    width: calc(10% + 35vmin);
+    height: calc(10% + 35vmin);
+  }
+
+  .circle-1{
+    width: 350px;
+    height: 350px;
+  }
+
+}
+
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+}
+
+@keyframes leftEntry {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes rightEntry {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
 }
