@@ -32,6 +32,15 @@
           },
           "correctAnswer": true,
           "isRequired": true,
+          "validators": [
+            {
+              "type": "expression",
+              "text": {
+                "es": "No puedes continuar sin aceptar el aviso de privacidad"
+              },
+              "expression": "{acepto_aviso_privacidad} = true"
+            }
+          ],
           "labelTrue": {
             "es": "Sí"
           },
