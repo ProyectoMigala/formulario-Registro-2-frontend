@@ -368,11 +368,11 @@
               },
               "validators": [
                 {
-                  "type": "regex",
+                  "type": "expression",
                   "text": {
-                    "es": "Formato de Clave de Elector"
+                    "es": "Error en formato"
                   },
-                  "regex": "^([A-Z]{6}[0-9]{7,8}[HM][0-9]{3})$"
+                  "expression": "claveElectorValidator({clave_elector})"
                 }
               ]
             }

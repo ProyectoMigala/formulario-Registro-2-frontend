@@ -2,7 +2,11 @@ import migalaSurvey from 'config/migala-registro-survey.json'
 import * as Survey from "survey-react";
 import { handleOnCompleted } from 'service';
 import showdown from 'showdown';
-import {birthDateValidator, curpValidator} from './validators';
+import {
+  birthDateValidator,
+  curpValidator,
+  claveElectorValidator
+} from './validators';
 
 const registerValidators = (...validators: {name: string, function: any}[]) => {
 
@@ -16,7 +20,8 @@ const registerValidators = (...validators: {name: string, function: any}[]) => {
 
 registerValidators(
     {name: 'birthDateValidator', function: birthDateValidator},
-    {name: 'curpValidator', function: curpValidator}
+    {name: 'curpValidator', function: curpValidator},
+    {name: 'claveElectorValidator', function: claveElectorValidator},
 )
 
 const MigalaRegistroModel: Survey.ReactSurveyModel = new Survey.Model(migalaSurvey);
