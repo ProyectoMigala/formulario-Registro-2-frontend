@@ -1,3 +1,5 @@
+
+
 import {Constants} from "common/Constants";
 
 export function birthDateValidator(date: any): boolean {
@@ -16,7 +18,12 @@ export function birthDateValidator(date: any): boolean {
 
 }
 
-export function curpValidator(data: any): boolean {
+export function curpValidator(data: string[]): boolean {
   let [ curp ] = data
   return Constants.CURP_REGEX.test(curp.toString().toUpperCase())
+}
+
+export function claveElectorValidator(data: string[]): boolean{
+  let [clave_elector] = data; 
+  return Constants.CLAVE_ELECTOR_REGEX.test(clave_elector.toUpperCase());
 }
