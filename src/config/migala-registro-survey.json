@@ -71,7 +71,7 @@
       "elements": [
         {
           "type": "text",
-          "name": "como-nos-referimos-a-ti",
+          "name": "como_nos_referimos_a_ti",
           "title": {
             "es": "¿Cómo te gustaría que nos refiramos a ti?"
           },
@@ -777,7 +777,7 @@
       "elements": [
         {
           "type": "matrix",
-          "name": "question7",
+          "name": "participacion_disponibilidad",
           "title": {
             "es": "Hagamos un ejercicio mental ¿Qué días y cuántas horas puedes dedicarle al proyecto?"
           },
