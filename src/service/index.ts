@@ -9,8 +9,8 @@ export function handleOnCompleted( sender: SurveyModel, options: any) : void{
     "rows": [
       {
         acepto_aviso_privacidad: data.acepto_aviso_privacidad,
-        como_nos_referimos_a_ti: data.como_nos_referimos_a_ti,
-        correo_electronico: data.correo_electronico,
+        name: data.como_nos_referimos_a_ti,
+        email: data.correo_electronico,
         telefono_celular: data.telefono_celular,
         fecha_de_nacimiento: data.fecha_de_nacimiento,
         nacionalidad: data.nacionalidad,
