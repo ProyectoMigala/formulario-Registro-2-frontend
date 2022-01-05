@@ -4,6 +4,8 @@ import { MigalaRegistroModel } from './survey'
 
 export function MigalaRegistro() {
   return(
-    <Survey.Survey model={MigalaRegistroModel} />
+    <>
+      <Survey.Survey model={MigalaRegistroModel} />
+    </>
   )
 }

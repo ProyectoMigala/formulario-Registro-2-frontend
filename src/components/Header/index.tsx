@@ -23,7 +23,7 @@ export function Header() {
         behavior: 'smooth'
       })
     }, 3500)
-  }
+  }  
 
   useEffect(() => {
     initialize();
@@ -35,7 +35,7 @@ export function Header() {
     <header className={`App-header ${fullSize ? '' : 'minsize' }`}>
       <div className="logo-image-container">
         <img src={WhiteLogo} className="logo-header-img fadeIn"/>
-        <h4 className="header-title">PROYECTO MIGALA</h4>
+        <h4 className="header-title">PROYECTO MIGALA</h4>        
       </div>
 
       <div className="circles-container">
