@@ -1,7 +1,11 @@
 import { SurveyModel } from "survey-react";
 import http from "./http";
 
-export function handleOnCompleted( sender: SurveyModel, options: any) : void{  
+/**
+ * Función que parsea y manda las respuestas del formulario al API
+ * @param sender Modelo del formulario
+ */
+export function handleOnCompleted(sender: SurveyModel) : void{  
   const data = sender.data;
 
   http.post(`/form`, {

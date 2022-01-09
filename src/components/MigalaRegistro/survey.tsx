@@ -8,8 +8,10 @@ import {
   claveElectorValidator
 } from './validators';
 
+/**
+ * Registro de validadores para utilizar en el archivo de configuración del formulario
+ */
 const registerValidators = (...validators: {name: string, function: any}[]) => {
-
   validators.forEach( f => {
     Survey
         .FunctionFactory
@@ -26,6 +28,9 @@ registerValidators(
 
 const MigalaRegistroModel: Survey.ReactSurveyModel = new Survey.Model(migalaSurvey);
 
+/**
+ * Configuración de colores del formulario
+ */
 let defaultThemeColors = Survey
     .StylesManager
     .ThemeColors["modern"];
@@ -38,6 +43,10 @@ Survey.StylesManager.applyTheme('modern');
 
 MigalaRegistroModel.onComplete.add(handleOnCompleted);
 
+/**
+ * Esta configuración permite escribir en formato markdown dentro de las
+ * preguntas del formulario
+ */
 const converter = new showdown.Converter();
 
 MigalaRegistroModel.onTextMarkdown

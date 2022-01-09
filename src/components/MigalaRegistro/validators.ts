@@ -2,8 +2,12 @@
 
 import {Constants} from "common/Constants";
 
+/**
+ * Valida que la fecha sea mayor o igual 15 años
+ * @param date Fecha a validar
+ * @returns {boolean} Resultado de validación
+ */
 export function birthDateValidator(date: any): boolean {
-
   const birthDate = new Date(date[0]);
   const today = new Date();
 
@@ -15,14 +19,24 @@ export function birthDateValidator(date: any): boolean {
   }
 
   return age >= 15;
-
 }
 
+/**
+ * Valida que la cadena cumpla con el formato de un CURP válido
+ * @param data Cadena a evaluar
+ * @returns {boolean} Resultado de validación
+ */
 export function curpValidator(data: string[]): boolean {
   let [ curp ] = data
   return Constants.CURP_REGEX.test(curp.toString().toUpperCase())
 }
 
+
+/**
+ * Valida que la cadena cumpla con el formato de una clave de elector válida
+ * @param data Cadena a evaluar
+ * @returns {boolean} Resultado de validación
+ */
 export function claveElectorValidator(data: string[]): boolean{
   let [clave_elector] = data; 
   return Constants.CLAVE_ELECTOR_REGEX.test(clave_elector.toUpperCase());
