@@ -22,7 +22,7 @@ export function birthDateValidator(date: any): boolean {
 }
 
 /**
- * Valida que la cadena cumpla con el formato de un CURP válido
+ * Valida que la cadena cumpla con el formato de un CURP
  * @param data Cadena a evaluar
  * @returns {boolean} Resultado de validación
  */
@@ -33,7 +33,7 @@ export function curpValidator(data: string[]): boolean {
 
 
 /**
- * Valida que la cadena cumpla con el formato de una clave de elector válida
+ * Valida que la cadena cumpla con el formato de una clave de elector
  * @param data Cadena a evaluar
  * @returns {boolean} Resultado de validación
  */
