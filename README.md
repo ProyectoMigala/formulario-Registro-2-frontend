@@ -52,6 +52,8 @@ docker run -p 3000:3000 migala-form
 
 ### Builds para producción
 
+Es necesario tener un archivo `.env.production` con las variables de ambiente definidas en `.env.example`.
+
 El siguiente comando construirá una imágen de contenedor con una versión
 productiva del proyecto:
 
