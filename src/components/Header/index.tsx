@@ -28,13 +28,13 @@ export function Header() {
   useEffect(() => {
     initialize();
     setUpScrollTimeout()
-  }, []);
+  });
 
 
   return (
     <header className={`App-header ${fullSize ? '' : 'minsize' }`}>
       <div className="logo-image-container">
-        <img src={WhiteLogo} className="logo-header-img fadeIn"/>
+        <img src={WhiteLogo} className="logo-header-img fadeIn" alt="logo"/>
         <h4 className="header-title">PROYECTO MIGALA</h4>        
       </div>
 
