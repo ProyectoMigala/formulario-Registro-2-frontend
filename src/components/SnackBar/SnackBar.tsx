@@ -12,16 +12,14 @@ export const SnackBar = ({showSnackBar, snackText}: SnackBarProps) => {
 const SnackBarDiv = styled.div`
   visibility: hidden;
   min-width: 250px;
-  margin-left: -125px;
   background-color: #333;
   color: #fff;
   text-align: center;
   border-radius: 2px;
   padding: 16px;
   position: fixed;
-  z-index: 101;
-  left: 50%;
   bottom: 30px;
+  z-index: 101;
 
   &.show {
     visibility: visible;
