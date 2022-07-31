@@ -1,6 +1,9 @@
 import React, {useEffect, useRef, useState} from "react";
 import styled from "styled-components";
 import {useNavigate, useSearchParams} from "react-router-dom";
+import {Loader} from "components/Loader/Loader";
+import http from "../../service/http";
+import {SnackBar} from "components/SnackBar/SnackBar";
 
 const TOKEN_KEY = "temptoken"
 const URL_LINK = "http://www.proyectomigala.earth"
@@ -9,20 +12,44 @@ export const WelcomePage = () => {
 
   const [pmId, setPmId] = useState("UNIQUE_ID")
   const [showSnackBar, setShowSnackBar] = useState(false)
+  const [snackBarText, setSnackBarText] = useState("")
+  const [showLoader, setShowLoader] = useState(true)
+
   const animation = useRef<any>()
 
   const navigate = useNavigate()
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams, _] = useSearchParams();
 
   useEffect(() => {
     if (!searchParams.get(TOKEN_KEY)) {
       navigate("/")
     }
 
-    console.log(searchParams.get(TOKEN_KEY))
+
+    getPMID(searchParams.get(TOKEN_KEY)).then()
+
   }, [searchParams])
 
+  const getPMID = async (tokenCode: any) => {
+
+    try {
+      const response: any = await http.get(`/code/${tokenCode}`)
+
+      if (!response) navigate("/")
+
+      setPmId(response.PMID)
+      setShowLoader(false)
+    } catch (e:any) {
+      setShowSnackBar(true)
+      setSnackBarText(e.message)
+      setTimeout(() => {
+        navigate("/")
+      }, 3000)
+    }
+  }
+
   const handleCopy = () => {
+    setSnackBarText("Texto copiado al portapapeles")
     setShowSnackBar(true)
 
     navigator.clipboard.writeText(pmId).then()
@@ -48,6 +75,9 @@ export const WelcomePage = () => {
 
   return (
     <WelcomeContainer>
+
+      {showLoader && <Loader/>}
+
       <WavesContainer>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -68,9 +98,9 @@ export const WelcomePage = () => {
 
         <WelcomeCardDescription>
 
-          Es un gusto tenerte con nosotros a partir de ahora tu código de identificación (PMID)
+          Hola. ¡Es un gusto tenerte con nosotros! A partir de ahora, tu código de identificación (PMID)
           dentro del proyecto sera <UniqueId title="Copiar al portapapeles" onClick={handleCopy}>{pmId} 📄</UniqueId>.
-          guarda bien este Id pues te sera de utilidad
+          Guarda bien este Id pues te sera de utilidad
           para participar en el proyecto.
 
 
@@ -97,7 +127,7 @@ export const WelcomePage = () => {
 
       </WelcomeCard>
 
-      <SnackBarCopy className={showSnackBar ? "show" : ""}> Texto copiado al portapapeles </SnackBarCopy>
+      <SnackBar showSnackBar={showSnackBar} snackText={snackBarText} />
 
     </WelcomeContainer>
   )
@@ -124,7 +154,7 @@ const WelcomeCard = styled.div`
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: absolute;
-  width: 85%;
+  width: calc(85% - 100px);
   min-height: 40%;
   margin-top: 100px;
   z-index: 2;
@@ -133,72 +163,6 @@ const WelcomeCard = styled.div`
   flex-flow: column nowrap;
   align-items: center;
   padding: 30px 50px;
-`
-
-const SnackBarCopy = styled.div`
-  visibility: hidden;
-  min-width: 250px;
-  margin-left: -125px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  border-radius: 2px;
-  padding: 16px;
-  position: fixed;
-  z-index: 1;
-  left: 50%;
-  bottom: 30px;
-
-  &.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-    animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  }
-
-  /* Animations to fade the snackbar in and out */
-  @-webkit-keyframes fadein {
-    from {
-      bottom: 0;
-      opacity: 0;
-    }
-    to {
-      bottom: 30px;
-      opacity: 1;
-    }
-  }
-
-  @keyframes fadein {
-    from {
-      bottom: 0;
-      opacity: 0;
-    }
-    to {
-      bottom: 30px;
-      opacity: 1;
-    }
-  }
-
-  @-webkit-keyframes fadeout {
-    from {
-      bottom: 30px;
-      opacity: 1;
-    }
-    to {
-      bottom: 0;
-      opacity: 0;
-    }
-  }
-
-  @keyframes fadeout {
-    from {
-      bottom: 30px;
-      opacity: 1;
-    }
-    to {
-      bottom: 0;
-      opacity: 0;
-    }
-  }
 `
 
 const WelcomeCardTitle = styled.span`
