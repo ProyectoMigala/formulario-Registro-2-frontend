@@ -154,7 +154,7 @@ const WelcomeCard = styled.div`
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   position: absolute;
-  width: 85%;
+  width: calc(85% - 100px);
   min-height: 40%;
   margin-top: 100px;
   z-index: 2;
