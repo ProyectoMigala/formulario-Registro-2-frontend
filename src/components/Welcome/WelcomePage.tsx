@@ -18,7 +18,7 @@ export const WelcomePage = () => {
   const animation = useRef<any>()
 
   const navigate = useNavigate()
-  const [searchParams, _] = useSearchParams();
+  const [searchParams] = useSearchParams();
 
   useEffect(() => {
     if (!searchParams.get(TOKEN_KEY)) {
@@ -37,7 +37,7 @@ export const WelcomePage = () => {
 
       if (!response) navigate("/")
 
-      setPmId(response.PMID)
+      setPmId(response.data.PMID)
       setShowLoader(false)
     } catch (e:any) {
       setShowSnackBar(true)
